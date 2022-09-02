@@ -1,0 +1,31 @@
+{
+  "suggest.echodocSupport": true,
+  "suggest.maxCompleteItemCount": 20,
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "jjavascript",
+    "ttypescript",
+    "ttypescriptreact",
+    "jjson",
+    "jjavascriptreact"
+  ],
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "",
+  "diagnostic.enableSign": true,
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "explorer.icon.enableNerdfont": true,
+  "prettier.tslintIntegration": false,
+  "prettier.eslintIntegration": true,
+  "coc.preferences.messageLevel": "error",
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "explorer.file.reveal.auto": true,
+  "explorer.file.reveal.whenOpen": false
+}

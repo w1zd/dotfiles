@@ -1,0 +1,21 @@
+[init]
+	defaultBranch = main
+[user]
+	name = w1zd
+	email = me@wizd.dev
+[pull]
+	rebase = true
+[core]
+	excludesfile = /Users/sh0105/.gitignore_global
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/

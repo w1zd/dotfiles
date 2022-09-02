@@ -1,0 +1,17 @@
+{
+  "base": [
+    "~/Code"
+  ],
+  "hooks": {
+    "postadd": "git_config_user"
+  },
+  "postadd": {
+    "github.com": {
+      "name": "w1zd",
+      "email": "me@wizd.dev"
+    }
+  },
+  "alias": {
+    "github://": "https://github.com/"
+  }
+}
