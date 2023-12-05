@@ -397,7 +397,7 @@ let g:jsdoc_formatter = 'tsdoc'
 "  coc 插件  "
 """"""
 
-let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-html', 'coc-prettier', 'coc-tsserver', 'coc-styled-components', 'coc-react-refactor', 'jest-snippets', 'coc-explorer']
+let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-html', 'coc-prettier', 'coc-tsserver', 'coc-styled-components', 'coc-react-refactor', 'coc-explorer']
 
 """
 " blamer
