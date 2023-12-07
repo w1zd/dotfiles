@@ -2,7 +2,7 @@
 " =   Vim自身键盘映射   =
 " =====================
 " 按键设置开始
-let mapleader=','
+  let mapleader=','
 " map <F3> <C-W>w
 map <F10> :sh<CR>
 
