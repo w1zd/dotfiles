@@ -7,6 +7,7 @@
 	rebase = true
 [core]
 	excludesfile = /Users/sh0105/.gitignore_global
+  editor = "nvim"
 [diff]
     tool = vscode
 [difftool "vscode"]
