@@ -19,11 +19,11 @@ keymap.set("n", "<Right>", "<Nop>")
 keymap.set("n", "<Up>", "<Nop>")
 keymap.set("n", "<Down>", "<Nop>")
 
-keymap.set("n", "∆", ":m .+1<CR>==")
-keymap.set("n", "˚", ":m .-2<CR>==")
-
-keymap.set("i", "∆", "<Esc>:m .+1<CR>==gi")
-keymap.set("i", "˚", "<Esc>:m .-2<CR>==gi")
-
-keymap.set("v", "∆", ":m '>+0<CR>gv=gv")
-keymap.set("v", "˚", ":m '<-2<CR>gv=gv")
+-- keymap.set("n", "∆", ":m .+1<CR>==")
+-- keymap.set("n", "˚", ":m .-2<CR>==")
+--
+-- keymap.set("i", "∆", "<Esc>:m .+1<CR>==gi")
+-- keymap.set("i", "˚", "<Esc>:m .-2<CR>==gi")
+--
+-- keymap.set("v", "∆", ":m '>+0<CR>gv=gv")
+-- keymap.set("v", "˚", ":m '<-2<CR>gv=gv")
