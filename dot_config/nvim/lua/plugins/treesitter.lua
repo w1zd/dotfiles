@@ -21,7 +21,7 @@ return {
 				"sql",
 				"svelte",
 				"markdown",
-				"markdown_lines",
+				"markdown_line",
 			},
 
 			-- matchup = {
