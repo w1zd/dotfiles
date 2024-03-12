@@ -20,6 +20,8 @@ return {
 				"scss",
 				"sql",
 				"svelte",
+				"markdown",
+				"markdown_lines",
 			},
 
 			-- matchup = {
