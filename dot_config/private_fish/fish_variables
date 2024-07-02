@@ -1,3 +1,4 @@
+
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export DBUS_SESSION_BUS_ADDRESS:unix\x3apath\x3d/private/tmp/com\x2eapple\x2elaunchd\x2eAbAui7ZfTC/unix_domain_listener
@@ -35,10 +36,10 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/usr/local/sbin\x1e/opt/local/sbin\x1e/opt/local/bin\x1e/Users/wizard/Library/Python/3\x2e9/bin\x1e/Users/Wizard/\x2elocal/share/nvm/v14\x2e15\x2e0/bin
+SETUVAR fish_user_paths:/usr/local/smlnj/bin\x1e/usr/local/sbin\x1e/opt/local/sbin\x1e/opt/local/bin\x1e/Users/wizard/Library/Python/3\x2e9/bin\x1e/Users/Wizard/\x2elocal/share/nvm/v14\x2e15\x2e0/bin
 SETUVAR nvm_data:/Users/Wizard/\x2elocal/share/nvm
 SETUVAR nvm_default_packages:yarn\x1enp
-SETUVAR nvm_default_version:v16\x2e20\x2e2
+SETUVAR nvm_default_version:v18\x2e19\x2e1
 SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false

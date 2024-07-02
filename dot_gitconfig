@@ -1,22 +1,18 @@
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [user]
-	name = w1zd
-	email = me@wizd.dev
+  name = w1zd
+  email = me@wizd.dev
 [pull]
-	rebase = true
+  rebase = true
 [core]
-	excludesfile = /Users/sh0105/.gitignore_global
+  excludesfile = /Users/sh0105/.gitignore_global
   editor = "nvim"
 [diff]
-    tool = vscode
+  tool = vscode
 [difftool "vscode"]
-    cmd = code --wait --diff $LOCAL $REMOTE
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = code --wait --diff $LOCAL $REMOTE
+[mergetool "nvim"]
+  path = "nvim"
 [url "git@github.com:"]
-	insteadOf = https://github.com/
+  insteadOf = https://github.com/
