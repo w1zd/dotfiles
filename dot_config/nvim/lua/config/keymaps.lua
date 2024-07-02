@@ -18,7 +18,9 @@ keymap.set("n", "<Left>", "<Nop>")
 keymap.set("n", "<Right>", "<Nop>")
 keymap.set("n", "<Up>", "<Nop>")
 keymap.set("n", "<Down>", "<Nop>")
-
+keymap.set("n", "<leader>rn", function()
+  return ":IncRename " .. vim.fn.expand("<cword>")
+end, { expr = true })
 -- keymap.set("n", "∆", ":m .+1<CR>==")
 -- keymap.set("n", "˚", ":m .-2<CR>==")
 --
@@ -27,3 +29,14 @@ keymap.set("n", "<Down>", "<Nop>")
 --
 -- keymap.set("v", "∆", ":m '>+0<CR>gv=gv")
 -- keymap.set("v", "˚", ":m '<-2<CR>gv=gv")
+--
+
+if vim.g.vscode then
+  vscode = require("vscode")
+  keymap.set("n", "<leader>e", function()
+    vscode.action("workbench.action.toggleSidebarVisibility")
+  end)
+  keymap.set("n", "<leader>ff", function()
+    vscode.action("workbench.action.quickOpen")
+  end)
+end

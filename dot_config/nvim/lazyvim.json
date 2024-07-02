@@ -1,9 +1,15 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.lang.tex"
+    "lazyvim.plugins.extras.coding.mini-surround",
+    "lazyvim.plugins.extras.editor.inc-rename",
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.python",
+    "lazyvim.plugins.extras.lang.tex",
+    "lazyvim.plugins.extras.lang.vue",
+    "lazyvim.plugins.extras.util.dot"
   ],
   "news": {
-    "NEWS.md": "2123"
+    "NEWS.md": "6077"
   },
-  "version": 3
+  "version": 6
 }
